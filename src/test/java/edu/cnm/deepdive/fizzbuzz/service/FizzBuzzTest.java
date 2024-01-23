@@ -17,7 +17,7 @@ class FizzBuzzTest {
   @ParameterizedTest
   @ValueSource(ints = {3,102,-3})
   void evaluate_fizz(int number) {
-    assertEquals("fizz ", FizzBuzz.evaluate(number));
+    assertEquals("fizz", FizzBuzz.evaluate(number));
   }
 
   @ParameterizedTest
@@ -29,7 +29,7 @@ class FizzBuzzTest {
   @ParameterizedTest
   @ValueSource(ints = {0, 15,60,-15})
   void evaluate_fizzBuzz(int number) {
-    assertEquals("fizz buzz", FizzBuzz.evaluate(number));
+    assertEquals("fizzbuzz", FizzBuzz.evaluate(number));
   }
 
 }

@@ -11,7 +11,7 @@ public class Main {
       String value = FizzBuzz.evaluate(counter);
       System.out.printf("%s ", value);
 //      System.out.printf("%s%n", FizzBuzz.evaluate(counter));
-      if (value.contentEquals("fizz buzz")){
+      if (value.contentEquals("fizzbuzz")){
         System.out.printf("%n");
       }
     }
